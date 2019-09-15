@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        billField.becomeFirstResponder()
+    }
+    
     // outlet connection
     @IBOutlet weak var billField: UITextField!
     @IBOutlet weak var tipLabel: UILabel!
