@@ -97,11 +97,9 @@
 		CE167CF4231CBA2D0020EF04 /* Tip Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				CE167CF5231CBA2D0020EF04 /* AppDelegate.swift */,
 				CE167CF7231CBA2D0020EF04 /* ViewController.swift */,
 				CE167CF9231CBA2D0020EF04 /* Main.storyboard */,
-				CE167CFC231CBA2F0020EF04 /* Assets.xcassets */,
-				CE167CFE231CBA2F0020EF04 /* LaunchScreen.storyboard */,
+				CE167D23231CBA4A0020EF04 /* Supporting Files */,
 				CE167D01231CBA2F0020EF04 /* Info.plist */,
 			);
 			path = "Tip Calculator";
@@ -123,6 +121,16 @@
 				CE167D17231CBA2F0020EF04 /* Info.plist */,
 			);
 			path = "Tip CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		CE167D23231CBA4A0020EF04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE167CF5231CBA2D0020EF04 /* AppDelegate.swift */,
+				CE167CFC231CBA2F0020EF04 /* Assets.xcassets */,
+				CE167CFE231CBA2F0020EF04 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
